@@ -22,7 +22,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 		if (renderer)
 		{
 
-			SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+			SDL_SetRenderDrawColor(renderer, 175, 0, 255, 255);
 			cout << "Renderer created!" << endl;
 		}
 		isRunning = true;
